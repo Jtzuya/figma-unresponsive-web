@@ -8,7 +8,7 @@
 }
 
 
-header, main, footer {
+header, main, footer, .copyright {
     padding: 0px 140px 0 140px;
 }
 
@@ -21,6 +21,7 @@ header {
 
 a {
     font-weight: 400;
+    text-decoration: none;
 }
 
 nav, nav ul {
@@ -170,7 +171,7 @@ section {
 
 .section-2 ul {
     display: flex;
-    margin-top: 60px;
+    margin-top: 60px;   
     
 }
 
@@ -195,4 +196,55 @@ section {
 
 .rating {
     padding-top: 50px;
+}
+
+footer {
+    padding-top:80px;
+    display: flex;
+}
+
+.right-1 p {
+    font-family: "karla", sans-serif;
+    color: #29343D;
+    padding-top: 18px;
+    font-weight: 400;
+}
+
+footer a {
+    font-family: "karla", sans-serif;
+    color: #29343D;
+}
+
+.logo-2 {
+    padding-right: 140px;
+}
+
+.menu-2 {
+    display: flex;
+}
+
+.menu-2 p {
+    font-family: "Poppins", sans-serif;
+    color: #29343D;
+    font-weight: 400;   
+    font-size: 18px;
+}
+
+.menu-2 ul {
+    padding-top: 35px;
+}
+
+.footer-menu {
+    padding-right: 30px;
+}
+
+.footer-menu li {
+    line-height: 200%;
+}
+
+.copyright {
+    padding-top: 230px;
+    padding-bottom: 80px;
+    font-family: "karla", sans-serif;
+    font-weight: 400;
 }
