@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+
+header, main, footer {
+    padding: 0px 140px 0 140px;
+}
+
+header {
+    display: flex;
+    padding-top: 25px;
+    justify-content: space-between;
+    background-color: #8C32FF;
+}
+
+a {
+    font-weight: 400;
+}
+
+nav, nav ul {
+    display: flex;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 7.5px 0 7.5px;
+    font-family: "karla", sans-serif;
+}
+
+nav li {
+    padding-top: 8px;
+}
+
+.navBar {
+    padding-right: 22px;
+}
+
+.sign {
+    background-color: rgba(255,255,255,0.38);
+    padding: 9px 17px;
+    border-radius: 34px;
+}
+
+.sign:hover {
+    background-color: rgba(255,255,255,0.27);
+    transition: 0.3s;
+}
+
+main {   
+    background-color: #8C32FF;
+    color: #fff;
+    display: flex;
+    padding-bottom: 71px;
+}
+
+.line {
+    padding-bottom: 28px;
+}
+
+.content {
+    padding-top: 157px;
+}
+
+main h2 {
+    font-size: 72px;
+    font-family: "Poppins", sans-serif;
+    line-height: 113%;
+}
+
+main p {
+    padding-top: 45px;
+    font-family: "karla", sans-serif;
+}
+
+main ul {
+    display: flex;
+    padding-top: 60px;
+}
+
+.btn-1 {
+    margin-right: 20px;
+    color: white;
+}
+.btn-2 {
+    color: white;
+}
+
+.main-b {
+    text-decoration: none;
+    font-family: "karla", sans-serif;
+    border: 1px solid #ffff;
+    border-radius: 50px;
+    padding: 14px 21px;
+}
+
+.main-b:hover {
+    color: #8C32FF;
+    background-color: #ffff;
+    transition: 0.3s;
+}  
+
+.img {
+    padding-left: 90px;
+    margin-top: 90px;
+}
+
+section {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.section-1 {
+    background-color: white;
+    padding-top: 148px;
+    text-align: center;
+}
+
+.section-1 h2 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.section-1 p {
+    padding: 10px 0 36px 0;
+}
+
+.btn-3{
+    text-decoration: none;
+    color: #8C32FF;
+    border: 1px transparent #D6D6D6;
+    background-color: rgba(191,187,185,0.4);
+    padding: 20px 30px;
+    border-radius: 50px;
+}
+
+.img-s {
+    padding-top: 56px;
+}
+
+.section-2 {
+    margin-top: 305px;
+    background-color: #caa2fd21;
+    display: flex;
+    padding: 0px 140px 85px 140px;
+}
+
+.img-s-2 {
+    padding: 90px 18px 0px 0px;
+}
+
+.section-2 h2 {
+    padding-top: 152px;
+    font-size: 52px;
+    font-weight: 300;
+    line-height: 113%;
+    flex-basis: 100%;
+}
+
+.section-2 p {
+    padding-top: 30px;
+    color: #8C32FF;
+}
+
+.section-2 ul {
+    display: flex;
+    margin-top: 60px;
+    
+}
+
+.main-bt {
+    text-decoration: none;
+    color: #8C32FF;
+    border: 1px solid #8C32FF;
+    padding: 16px 26px;
+    border-radius: 50px;
+    
+}
+
+.main-bt:hover {
+    background-color: #8C32FF;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-4 {
+    margin-right: 20px;
+}
+
+.rating {
+    padding-top: 50px;
+}
